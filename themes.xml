@@ -1,0 +1,22 @@
+<!-- res/values/theme.xml -->
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Theme.MyTodo" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary color -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Background color -->
+        <item name="android:windowBackground">@color/colorBackground</item>
+
+        <!-- Button color -->
+        <item name="colorButtonNormal">@color/colorButton</item>
+
+        <!-- Text color -->
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+    </style>
+
+</resources>

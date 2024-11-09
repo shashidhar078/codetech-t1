@@ -1,0 +1,48 @@
+<!-- res/layout/activity_main.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:paddingTop="32dp"
+    android:background="@color/colorBackground"
+    tools:ignore="ExtraText">  <!-- Background color -->
+
+
+    <!-- EditText for task input -->
+    <EditText
+        android:id="@+id/taskEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter a new task"
+        android:background="@drawable/edit_text_bg"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/colorTextPrimary"
+        android:textColorHint="@color/colorTextSecondary"/>
+
+
+    <!-- Button to add tasks -->
+        <Button
+        android:id="@+id/addTaskButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:textColor="@android:color/white"
+        android:background="@color/colorButton"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:layout_marginBottom="16dp" />
+
+            <!-- RecyclerView for the task list -->
+        <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tasksRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp" />
+
+    </LinearLayout>

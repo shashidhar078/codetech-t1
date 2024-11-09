@@ -1,0 +1,29 @@
+<!-- res/values/colors.xml -->
+<resources>
+    <!-- Primary color -->
+    <color name="colorPrimary">#FF4081</color> <!-- Vibrant Pink -->
+
+    <!-- Darker shade of primary color -->
+    <color name="colorPrimaryDark">#F50057</color> <!-- Dark Pink -->
+
+    <!-- Accent color -->
+    <color name="colorAccent">#6200EE</color> <!-- Purple -->
+
+    <!-- Background color -->
+    <color name="colorBackground">#F5F5F5</color> <!-- Light Grey -->
+
+    <!-- Button color -->
+     <!-- Teal -->
+    <color name="colorButton">#00796B</color> <!-- Dark teal for better contrast -->
+
+    <!-- Text color for buttons -->
+    <color name="colorButtonText">#FFFFFF</color> <!-- White for strong contrast -->
+    <!-- Text color -->
+    <color name="colorTextPrimary">#212121</color> <!-- Dark Grey -->
+    <color name="colorTextSecondary">#757575</color> <!-- Grey -->
+    <!-- res/values/colors.xml -->
+
+    <color name="colorBackgroundEditText">#FFFFFF</color> <!-- Background color for EditText -->
+    <color name="colorEditTextBorder">#DDDDDD</color> <!-- Border color for EditText -->
+
+</resources>
